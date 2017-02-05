@@ -52,6 +52,10 @@ exports.auth_user = function(){
   });
 }
 
+exports.get_tokens() = function(){
+  return tokens();
+}
+
 //get the business token
 exports.get_host = function(){
   var token;
